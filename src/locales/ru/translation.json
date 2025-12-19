@@ -147,30 +147,30 @@
   },
   "messaging": {
     "title": "Обмен сообщениями",
-    "configureChannels": "Configure Channels",
-    "noChannelsSelected": "No channels selected",
-    "unnamedChannel": "Unnamed channel",
-    "noMessages": "No messages received on this channel",
-    "oneMessage": "1 message",
-    "manyMessages": "{{numMessages}} messages",
+    "configureChannels": "Настройка каналов",
+    "noChannelsSelected": "Нет выбранных каналов",
+    "unnamedChannel": "Безымянный канал",
+    "noMessages": "Нет сообщений, принятых на этом канале",
+    "oneMessage": "1 сообщение",
+    "manyMessages": "{{numMessages}} сообщений",
     "channelNumber": "(Ch. {{channelNum}})",
     "unnamedWaypoint": "[Unnamed waypoint]",
-    "waypointInfo": "Waypoint \"{{title}}\" ({{latitude}}, {{longitude}})",
-    "transmitting": "Transmitting...",
-    "acknowledged": "Acknowledged"
+    "waypointInfo": "Маршрутная точка \"{{title}}\" ({{latitude}}, {{longitude}})",
+    "transmitting": "Передача...",
+    "acknowledged": "Подтвержденная"
   },
   "manageNodes": {
     "title": "Управление нодами",
     "id": "ID",
-    "longName": "Long Name",
-    "shortName": "Short Name",
-    "noUserInfo": "No user info",
-    "lastHeard": "Last Heard",
-    "latitude": "Latitude",
-    "noGpsLock": "No GPS Lock",
-    "longitude": "Longitude",
-    "battery": "Battery",
-    "noBatteryInfo": "No battery info"
+    "longName": "Полное имя",
+    "shortName": "Краткое имя",
+    "noUserInfo": "Нет инфы пользователя",
+    "lastHeard": "Последний раз слышали",
+    "latitude": "Широта",
+    "noGpsLock": "Нет GPS-блокировки",
+    "longitude": "Долгота",
+    "battery": "Батарея",
+    "noBatteryInfo": "Нет инфы о батарее"
   },
   "manageWaypoints": {
     "title": "Управление маршрутную точками",
@@ -189,19 +189,19 @@
   },
   "config": {
     "discardChanges": "Отменить ожидающие изменения",
-    "uploadChanges": "Upload configuration to device",
-    "numPendingChanges": "{{numChanges}} pending changes",
-    "unknownOption": "Unknown option selected",
+    "uploadChanges": "Загрузить конфигурацию на устройство",
+    "numPendingChanges": "{{numChanges}} ожидающих изменений",
+    "unknownOption": "Выбран неизвестный параметр",
     "radio": {
-      "title": "Radio Config",
+      "title": "Конфигурация радиостанции",
       "options": {
         "bluetooth": "Bluetooth",
-        "device": "Device",
-        "display": "Display",
+        "device": "Устройство",
+        "display": "Отображение",
         "lora": "LoRa",
-        "network": "Network",
-        "position": "Position",
-        "power": "Power"
+        "network": "Сеть",
+        "position": "Позиционирование",
+        "power": "Мощность"
       },
       "bluetooth": {
         "title": "Конфигурация Bluetooth",
@@ -233,8 +233,8 @@
           "takTracker": "Tak Tracker",
           "routerLate": "Router Late"
         },
-        "serialEnabled": "Serial Enabled",
-        "serialDebugEnabled": "Serial Debug Enabled",
+        "serialEnabled": "Последовательный порт включен",
+        "serialDebugEnabled": "Отладка последовательного порта включена",
         "rebroadcastMode": {
           "title": "Режим ретрансляции",
           "all": "Все",
@@ -417,7 +417,7 @@
       },
       "mqtt": {
         "title": "Конфигурация MQTT",
-        "description": "Configure MQTT",
+        "description": "Настройка MQTT",
         "enableMqtt": "MQTT включен",
         "serverAddress": "Адрес сервера",
         "username": "Имя пользователя",
